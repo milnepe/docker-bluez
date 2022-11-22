@@ -1,4 +1,4 @@
-#docker-bluez
+# docker-bluez
 
 Run BlueZ stack in Docker container
 
@@ -35,7 +35,7 @@ docker exec -it ble bash
 
 Trouble-shooting:
 
-If there are errors check that the knowone is running bluetoothd
+If there are errors check that the no one is running bluetoothd
 
 ```shell
 sudo killall -9 bluetoothd
